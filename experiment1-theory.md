@@ -25,17 +25,16 @@ vectors and matrices that are defined over a finite field. In order to
 define a finite field, we need to first define a "binary operation",
 which is provided next.
 
-**Definition 1** _(Binary operation): Let $ \mathbb{F} $ be a set of elements. A binary  operation $*$ is
-a rule that assigns to each pair of  elements $a, b \in \mathbb{F}$ a uniquely defined third element
-$c = a * b \in \mathbb{F}$._
+**Definition 1** *(Binary operation): Let* $\mathbb{F}$ *be a set of elements. A binary  operation* $\*$ *is
+a rule that assigns to each pair of  elements* $a, b \in \mathbb{F}$ *a uniquely defined third element* $c = a \* b \in \mathbb{F}$.
 
 For example, consider the set of real numbers, denoted by $\mathbb{R}$. It can be verified that the addition operation defined for real numbers is a binary operation.  
 <br>
 In order to define a field, consider a set $\mathbb{F}$ on which two binary operations called addition $(+)$ and multiplication $(\cdot)$ are defined. For the given $\{\mathbb{F}, +, \cdot\}$,  
 a definition of the field is given below.
 
-**Definition 2** _(Field):
-$\{\mathbb{F}, +, \cdot\}$ is said to be a field if satisfies the following axioms::_
+**Definition 2** *(Field):*
+$\{\mathbb{F}, +, \cdot\}$ *is said to be a field if satisfies the following axioms:*
 
 -   *Associativity* of $(+)$ and $(\cdot)$: Elements
     $a, b, c \in \mathbb{F}$ satisfy $a + (b + c) = (a + b) + c$ and
@@ -70,7 +69,7 @@ defined over integers is not a field, since for integers multiplication
 inverses are not integers.
 
 Let us now consider an example of a field with finite number of
-elements. Consider a set $\mathbb{F}_2$ =  { 0, 1 }  with the addition
+elements. Consider a set $\mathbb{F}_2$ =  \{ 0, 1 \}  with the addition
 and multiplication operations for any $a, b \in \mathbb{F}_2$ defined as Equation (1)
 
 $$
@@ -81,7 +80,7 @@ $$
 1 + 1 = 0 \hspace{1in} 1 \cdot 1 &= 1. 
 \end{aligned}       
  $$
-####
+
 It can be verified that the set $\mathbb{F}_2$ alongwith the addition and multiplication operations defined in Eq. (1)
 is a field, since it satisfies the axioms of Definition 2. Such a field with finite number of elements is called as a *finite field*. For most
 of the experiments in this virtual lab, we will focus on the binary field $\mathbb{F}_2 = {0,1}$. 
@@ -157,7 +156,7 @@ and matrices that are defined over $\mathbb{F}_2$:
 
     $$
 
-    \begin{align*}
+    \begin{align}
     \mathbf{v} \cdot M &= 
     \begin{bmatrix}v_1 & v_2& \ldots& v_n\end{bmatrix}
     \cdot \begin{bmatrix}
@@ -172,7 +171,7 @@ and matrices that are defined over $\mathbb{F}_2$:
     \vdots \\
     v_1 \cdot M_{n1} + v_2 \cdot M_{n2} + \ldots +  v_n \cdot M_{nm}
     \end{bmatrix}, 
-    \end{align*}
+    \end{align}
     $$
     where note that each component wise addition and multiplication is performed according to Eq. (1). Consider the following example.
 
