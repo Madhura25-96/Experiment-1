@@ -25,7 +25,7 @@ vectors and matrices that are defined over a finite field. In order to
 define a finite field, we need to first define a "binary operation",
 which is provided next.
 
-**Definition 1** _(Binary operation): Let $\mathbb{F}$ be a set of elements. A binary  operation $*$ is
+**Definition 1** _(Binary operation): Let $ \mathbb{F} $ be a set of elements. A binary  operation $*$ is
 a rule that assigns to each pair of  elements $a, b \in \mathbb{F}$ a uniquely defined third element
 $c = a * b \in \mathbb{F}$._
 
